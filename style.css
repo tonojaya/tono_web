@@ -1,0 +1,258 @@
+.Container{
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(130, 197, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#box1 {
+    width: 20vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 5px 8px 5px green;
+}
+#box1:hover{
+    transform: scale(1.1,1.1);
+}
+#box2 {
+    width: 20vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 5px 8px 5px green;
+
+}
+
+#box2:hover{
+    transform: scale(1.1,1.1);
+}
+
+#box3 {
+    width: 20vw;
+    height: 50vh;
+    background-color: white;
+    box-shadow: 1px 5px 8px 5px green;
+    text-align: center;
+}
+#box3:hover{
+    transform: scale(1.1,1.1);
+}
+#box4 {
+    width: 20vw;
+    height: 50vh;
+    background-color: white;
+    box-shadow: 1px 5px 8px 5px green;
+    text-align: center;
+}
+#box4:hover{
+    transform: scale(1.1,1.1);
+}
+img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.wrapper{
+    border-radius: 10%;
+}
+.Contact{
+    background-color: black;
+    color: white;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20px;
+}
+.Contact:hover{
+    background-color: blue;
+}
+.Container2{
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(25, 129, 61);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper2{
+    border-radius: 10%;
+}
+#box5 {
+    width: 18vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+}
+#box5:hover{
+    transform: scale(1.1,1.1);
+}
+#box6 {
+    width: 18vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+}
+#box6:hover{
+    transform: scale(1.1,1.1);
+}
+#box7 {
+    width: 18vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+}
+#box7:hover{
+    transform: scale(1.1,1.1);
+}
+#box8 {
+    width: 18vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+}
+#box8:hover{
+    transform: scale(1.1,1.1);
+}
+
+.contact2 {
+    background-color: black;
+    color: white;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20px;
+}
+
+.contact2:hover {
+    background-color: blue;
+}
+
+.Container3{
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(184, 175, 175);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapper3 {
+    border-radius: 5%;
+}
+
+#box9 {
+    width: 22vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 1px 5px 10px 5px ;
+
+}
+#box9:hover{
+    transform: scale(1.1,1.1);
+}
+#box10 {
+    width: 22vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 1px 5px 10px 5px ;
+}
+#box10:hover{
+    transform: scale(1.1,1.1);
+}
+#box11 {
+    width: 22vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 1px 5px 10px 5px ;
+
+}
+#box11:hover{
+    transform: scale(1.1,1.1);
+}
+#box12 {
+    width: 22vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 1px 5px 10px 5px ;
+
+}
+#box12:hover{
+    transform: scale(1.1,1.1);
+}
+
+.contact3 {
+    background-color: black;
+    color: white;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20px;
+}
+
+.contact3:hover {
+    background-color: blue;
+}
+
+.img3 {
+   border: solid;
+}
+
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-links a:hover {
+    color: #b51010;
+    background-color: #0c1796;
+}
+
+/* Mobile Menu Toggle */
+.navbar-checkbox {
+    display: none;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
